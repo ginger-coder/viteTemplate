@@ -1,0 +1,32 @@
+{
+  "name": "parents-report",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "build:prod": "vite build --mode prod",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.6",
+    "echarts": "^5.1.2",
+    "lodash": "^4.17.21",
+    "qs": "^6.10.1",
+    "vue": "^3.0.5",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^1.5.1",
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "dotenv": "^10.0.0",
+    "postcss-pxtorem": "^6.0.0",
+    "postcss-units": "^1.2.1",
+    "sass": "^1.38.0",
+    "vite": "^2.4.4",
+    "vite-plugin-imagemin": "^0.4.3"
+  },
+  "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
+  }
+}
